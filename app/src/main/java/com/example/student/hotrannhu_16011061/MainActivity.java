@@ -14,11 +14,18 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         Button btnCau1 = (Button) findViewById(R.id.btnCau1);
+        Button btnCau2 = (Button) findViewById(R.id.btnCau2);
 
         btnCau1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(MainActivity.this, Cau1Activity.class));
+            }
+        });
+        btnCau2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MainActivity.this, Cau22Activity.class));
             }
         });
     }

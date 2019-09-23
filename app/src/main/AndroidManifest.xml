@@ -16,7 +16,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Cau1Activity"></activity>
+        <activity android:name=".Cau1Activity" />
+        <activity android:name=".Cau22Activity" />
+        <activity android:name=".KetQuaActivity"></activity>
     </application>
 
 </manifest>
