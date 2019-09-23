@@ -13,6 +13,7 @@ public class KetQuaActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_ket_qua);
 
+        edtKQ = findViewById(R.id.edtKQ);
         Intent intent = getIntent();
         String a = intent.getStringExtra("SOA");
         String b = intent.getStringExtra("SOB");
